@@ -1,0 +1,85 @@
+@import <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">;
+
+body {
+  background-color:#f6f1eb;
+  font-family: 'Lato', sans-serif;
+  color: #34393d;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+  margin-top: 35px;
+}
+
+h2 {margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+
+h3 {font-weight: 200;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.button-green {
+  background-color: #75D5C1;
+  color: white;
+  padding-top: 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-green:hover {
+  background-color: #25948D;
+  text-decoration: underline;
+}
+
+.link-black li a {
+color: #34393d;
+font-size: 25px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 100 auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.card a {
+  margin: 50px auto;
+}
+
+#twitter-margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
